@@ -18,7 +18,7 @@ app.use(morgan("dev"));
 
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
-console.log("byee")
+console.log("byee 222222")
 
 app.use("/auth", authRoutes);
 app.use("/tasks", taskRoutes);
